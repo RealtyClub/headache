@@ -15,6 +15,10 @@ module Headache
         ' ' + (@destination || '').to_s
       end
 
+      def origin
+        ' ' + (@origin || '').to_s
+      end
+
       def creation_date
         @creation_date || Date.today
       end
